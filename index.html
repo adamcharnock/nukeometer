@@ -1,0 +1,64 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nukeometer</title>
+
+    <link rel="stylesheet" href="/bower_components/foundation/css/normalize.css">
+    <link rel="stylesheet" href="/bower_components/foundation/css/foundation.css">
+    <link rel="stylesheet" href="/app.css">
+    
+    <script src="/bower_components/modernizr/modernizr.js" type="text/javascript"></script>
+</head>
+<body>
+
+    <div class="row">
+        <div class="small-12 medium-8 medium-centered column">
+            <form>
+                <div class="row">
+                    <div class="large-4 columns">
+                        <input type="text" placeholder="City">
+                    </div>
+                    <div class="large-4 columns">
+                        <input type="text" placeholder="Country">
+                    </div>
+                    <div class="large-4 columns">
+                        <a href="#" class="button postfix">Scare me</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <section id="results">
+        <div class="row">
+            <div class="small-12 medium-6 medium-centered column">
+                <h3>
+                    <div class="count">1234</div>
+                    <div class="sub">nuclear warheads</div>
+                </h3>
+
+                <h4>
+                    <div class="sub">Are within range of</div>
+                    <div class="where">Xxx, Yyy</div>
+                </h4>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="small-6 medium-3 medium-offset-3 column">
+                <h5>By country</h5>
+            </div>
+            <div class="small-6 medium-3 column end">
+                <h5>By delivery</h5>
+            </div>
+        </div>
+    </section>
+
+    <script src="/bower_components/jquery/dist/jquery.js" type="text/javascript"></script>
+    <script src="/bower_components/foundation/js/foundation.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).foundation();
+    </script>
+</body>
+</html>
